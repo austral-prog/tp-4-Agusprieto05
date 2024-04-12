@@ -17,8 +17,8 @@ def line():
     coefY2 = coef1 * coefX2 + coef2
     
     print("Dados los siguientes puntos:")
-    print(f"\t P1({coefX1} ; {coefY1})")
-    print(f"\t P2({coef1} ; {coefY2})")
+    print(f"\t P1({coefX1}, {coefY1})")
+    print(f"\t P2({coef1}, {coefY2})")
 
  
  
