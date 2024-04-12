@@ -1,6 +1,5 @@
 import math
 def line():
-    print("TO DO")
     coef1 = float(input("Ingrese el coeficiente A: "))
     coef2 = float(input("Ingrese el coeficiente B: "))
     coefX1 = float(input("Ingrese el coeficiente X1: "))
@@ -19,6 +18,10 @@ def line():
     print("Dados los siguientes puntos:")
     print(f"\t P1({coefX1}, {coefY1})")
     print(f"\t P2({coef1}, {coefY2})")
+
+ 
+    line1 = math.sqrt(math.pow(coefX2-coefX1,2)+math.pow(coefY2-coefY1,2))
+    print(f"La distancia entre ellos : {line1}")
 
  
     line1 = math.sqrt(math.pow(coefX2-coefX1,2)+math.pow(coefY2-coefY1,2))
