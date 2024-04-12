@@ -31,5 +31,3 @@ def line():
     distance = line1_1 + line2_1
     
     print(f"La distancia entre ellos : {distance}")
-
-line()
