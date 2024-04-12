@@ -21,13 +21,7 @@ def line():
     print(f"\t P2({coef1}, {coefY2})")
 
  
- 
-    line1_0 = math.pow(coefY1,2) + math.pow(coefX1,2)
-    line1_1 = math.sqrt(line1_0)
-
-    line2_0 = math.pow(coefY2,2) + math.pow(coefX2,2)
-    line2_1 = math.sqrt(line2_0)
-    
-    distance = line1_1 + line2_1
+    line1 = math.sqrt(math.pow(coefX2-coefX1,2)+math.pow(coefY2-coefY1,2))
+    print(f"La distancia entre ellos : {line1}")
     
     print(f"La distancia entre ellos : {distance}")
